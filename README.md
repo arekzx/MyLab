@@ -1,5 +1,5 @@
 # MyLab
-My first test repository
+My Lab repository.
 ----
 ### Usefull software list:  
 Network Router: https://opnsense.org/  
