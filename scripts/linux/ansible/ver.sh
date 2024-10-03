@@ -1,6 +1,6 @@
 #!/bin/bash -v
 # 
-# update script
+# check version script
 #
 ansible --version
 ansible-playbook --version
