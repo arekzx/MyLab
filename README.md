@@ -2,7 +2,7 @@
 My Lab repository.
 ----
 ## Linux Scripts:  
-### Bash
+### Bash: https://github.com/arekzx/MyLab/tree/main/scripts/linux/bash
 
 ## Windows Scripts:  
 ### Batch
