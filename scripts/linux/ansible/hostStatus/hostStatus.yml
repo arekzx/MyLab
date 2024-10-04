@@ -1,0 +1,23 @@
+---
+- hosts: all
+  gather_facts: no
+  tasks:
+    - name: Get current date
+      ansible.builtin.raw: "date"
+      register: date_output
+
+    - name: Get hostname
+      ansible.builtin.raw: "hostname"
+      register: hostname_output
+
+    - name: Get uptime
+      ansible.builtin.raw: "uptime"
+      register: uptime_output
+
+    - name: Show host status information
+      ansible.builtin.debug:
+        msg: |
+          Date: {{ date_output.stdout }}
+          Hostname: {{ hostname_output.stdout }}
+          Uptime: {{ uptime_output.stdout }}
+
